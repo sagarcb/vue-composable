@@ -5,7 +5,7 @@ import {reactive, ref, toRef} from "vue";
 // const {count,incrementCount} = counterMixin();
 import userCounter from "@/composables/useCounter";
 
-const {count, incrementCount} = userCounter(50,5);
+const {count, incrementCount} = userCounter(50,15);
 
 </script>
 
